@@ -1,0 +1,151 @@
+[
+  {
+    ingredientPattern: "X_H,_H_,H__",
+    "recipeGroup": 333,
+
+    ingredients: {
+      "X": {type: "Item", code: "betterruins:br-schematic-roofing" },
+
+      "H": { type: "item", code: "bricklayers:clayshingle-burned-*", name: "material", quantity: 1 }
+    },
+    width: 3,
+    height: 3,
+    output: { type: "block", code: "bricklayers:slantedroofing-{material}-east-free", quantity: 8  }
+  },
+  {
+    ingredientPattern: "XH_,H_H",
+    "recipeGroup": 333,
+
+    ingredients: {
+      "X": {type: "Item", code: "betterruins:br-schematic-roofing" },
+
+      "H": { type: "item", code: "bricklayers:clayshingle-burned-*", name: "material", quantity: 1 }
+    },
+    width: 3,
+    height: 2,
+    output: { type: "block", code: "bricklayers:slantedroofingridge-{material}-ns-free", quantity: 8  }
+  },
+  {
+    ingredientPattern: "HS,X_",
+    "recipeGroup": 333,
+
+    ingredients: {
+      "X": {type: "Item", code: "betterruins:br-schematic-roofing" },
+
+      "H": { type: "block", code: "bricklayers:shinglestairs-*-up-north-free", name: "material" },
+      "S": { type: "item", code: "bricklayers:clayshingle-burned-*", name: "material" }
+    },
+    width: 2,
+    height: 2,
+    output: { type: "block", code: "bricklayers:slantedroofing-{material}-east-free", quantity: 8  }
+  },
+  {
+    ingredientPattern: "XH",
+    "recipeGroup": 333,
+
+    ingredients: {
+      "X": {type: "Item", code: "betterruins:br-schematic-roofing" },
+
+      "H": { type: "item", code: "bricklayers:clayshingle-burned-*", name: "material", quantity: 1 }
+    },
+    width: 2,
+    height: 1,
+    output: { type: "block", code: "bricklayers:slantedroofingtip-{material}-free", quantity: 1  }
+  },
+  {
+    ingredientPattern: "XH,H_,_H",
+    "recipeGroup": 333,
+
+    ingredients: {
+      "X": {type: "Item", code: "betterruins:br-schematic-roofing" },
+
+      "H": { type: "item", code: "bricklayers:clayshingle-burned-*", name: "material", quantity: 1 }
+    },
+    width: 2,
+    height: 3,
+    output: { type: "block", code: "bricklayers:slantedroofingcornerinner-{material}-east-free", quantity: 8  }
+  },
+  {
+    ingredientPattern: "XH,HH",
+    "recipeGroup": 333,
+
+    ingredients: {
+      "X": {type: "Item", code: "betterruins:br-schematic-roofing" },
+
+      "H": { type: "item", code: "bricklayers:clayshingle-burned-*", name: "material", quantity: 1 }
+    },
+    width: 2,
+    height: 2,
+    output: { type: "block", code: "bricklayers:slantedroofingcornerouter-{material}-east-free", quantity: 8  }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "bricklayers:slantedroofing-*-east-free",
+        "quantity": 1,
+        "name": "material"
+      }
+    },
+    width: 1,
+    height: 1,
+    output: { type: "block", code: "oneroof:oneroof-{material}clay-standard-none-free", quantity: 1  }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "bricklayers:slantedroofingridge-*-ns-free",
+        "quantity": 1,
+        "name": "material"
+      }
+    },
+    width: 1,
+    height: 1,
+    output: { type: "block", code: "oneroof:oneroof-{material}clay-standard-none-free", quantity: 1  }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "bricklayers:slantedroofingcornerinner-*-east-free",
+        "quantity": 1,
+        "name": "material"
+      }
+    },
+    width: 1,
+    height: 1,
+    output: { type: "block", code: "oneroof:oneroof-{material}clay-standard-none-free", quantity: 1  }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "bricklayers:slantedroofingtip-*-free",
+        "quantity": 1,
+        "name": "material"
+      }
+    },
+    width: 1,
+    height: 1,
+    output: { type: "block", code: "oneroof:oneroof-{material}clay-standard-none-free", quantity: 1  }
+  },
+  {
+    "ingredientPattern": "R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "bricklayers:slantedroofingcornerouter-*-east-free",
+        "quantity": 1,
+        "name": "material"
+      }
+    },
+    width: 1,
+    height: 1,
+    output: { type: "block", code: "oneroof:oneroof-{material}clay-standard-none-free", quantity: 1  }
+  }
+]
