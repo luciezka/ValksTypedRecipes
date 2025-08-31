@@ -26,20 +26,6 @@
     output: { type: "block", code: "bricklayers:slantedroofingridge-{material}-ns-free", quantity: 8  }
   },
   {
-    ingredientPattern: "HS,X_",
-    "recipeGroup": 333,
-
-    ingredients: {
-      "X": {type: "Item", code: "betterruins:br-schematic-roofing" },
-
-      "H": { type: "block", code: "bricklayers:shinglestairs-*-up-north-free", name: "material" },
-      "S": { type: "item", code: "bricklayers:clayshingle-burned-*", name: "material" }
-    },
-    width: 2,
-    height: 2,
-    output: { type: "block", code: "bricklayers:slantedroofing-{material}-east-free", quantity: 8  }
-  },
-  {
     ingredientPattern: "XH",
     "recipeGroup": 333,
 
